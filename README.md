@@ -1,77 +1,98 @@
-# George — Desenvolvedor de Sistemas de Automação & Vibe Coding
+# Emerson Reis — Software Developer & Vibe Coder
 
-Construo sistemas operacionais com Python, React e Android — da câmera de reconhecimento de placas por IA até o app do cliente no celular.
+**Hortolândia, SP — Brazil** · Open to work · [LinkedIn](https://linkedin.com/in/epaular) · emerson.thereis@gmail.com
 
-Nos últimos dois anos, desenvolvi um ecossistema completo de gestão de estacionamento rodando em produção real, com nove produtos interconectados usando o Firebase Spark (plano gratuito) como backbone central. Zero custo de infraestrutura por escolha de arquitetura deliberada — não por limitação.
+> Available for **in-person or hybrid** roles in São Paulo Interior (Greater Campinas area) or Salvador, and **fully remote** opportunities worldwide.
+
+---
+
+I've spent over 10 years managing IT operations and SLAs in critical environments — IBM, then leading a regional team of 30 field technicians at Proxxi. Along the way I built Java/Selenium automations for my own workflows, served as a stakeholder on an IBM Watson scheduling system, and developed a taste for solving operational problems with code.
+
+In the past two years I shifted focus to full-stack development, building complete software products with AI-assisted workflows (Gemini, Claude). My background in how systems fail in production — and why SLAs break — informs how I design and validate the things I ship.
+
+Currently finishing a degree in Cybersecurity at FATEC Americana (expected July 2026) and actively looking for the right opportunity.
 
 ---
 
 ## 🚗 ParaFatec — Smart Parking Ecosystem
 
-O projeto central. Um sistema completo de gestão de estacionamento com reconhecimento automático de placas por IA, quatro PWAs, dois apps Android nativos e um engine de automação em Python — tudo rodando sobre um único projeto Firebase no plano gratuito.
+The project that brought everything together. A full parking management platform built from scratch, deployed in a real environment, and continuously improved over two years.
+
+Nine products. One Firebase project. Zero infrastructure cost.
 
 ```
-Câmera IP → YOLOv8 (LPR) → Firestore → Dashboard Gerencial / App do Cliente
+IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
                                   ↓
-                    POS Handheld + Terminal de Pátio (Android)
+              Operator Dashboard (PWA) + Client App (PWA) + Admin Hub (AI audit)
+                                  ↓
+                   Yard Terminal (Android, API 15) — client check-in/check-out
 ```
 
-| Produto | Plataforma | Função |
+| Product | Platform | Stack |
 |:---|:---|:---|
-| [ParaFatecMobile](https://github.com/thepreiss/ParaFatecMobile) | PWA (React 19) | Painel operacional para gestores e operadores |
-| [ParaFatecClient](https://github.com/thepreiss/ParaFatecClient) | PWA (React 19) | App do cliente: QR de acesso, histórico, mensalidade |
-| [ParaFatecMigration](https://github.com/thepreiss/ParaFatecMigration) | Web (React 19 + IA) | Hub administrativo com auditoria via Gemini AI |
-| [ParaFatecAutoAtendimento](https://github.com/thepreiss/ParaFatecAutoAtendimento) | PWA Mobile | Cadastro de novos clientes pelo próprio celular |
-| [ParaFatecPOS](https://github.com/thepreiss/ParaFatecPOS) | Android (Kotlin 2) | Terminal de mão Sunmi — check-in, tickets e impressão |
-| [ParaFatecTerminal](https://github.com/thepreiss/ParaFatecTerminal) | Android (Java) | Tablet fixo de pátio — check-in de clientes, OTA |
-| [ParaFatecAutomation](https://github.com/thepreiss/ParaFatecAutomation) | Python (YOLOv8) | Engine de LPR on-premise, câmeras ONVIF/RTSP |
-| [ParaFatec-Privacy](https://github.com/thepreiss/ParaFatec-Privacy) | Static Web | Portal de privacidade (LGPD) — [live ↗](https://privacy-parafatec.web.app) |
-| [ParaFatec](https://github.com/thepreiss/ParaFatec) | Android (Kotlin + MVI) | App legado — origem e referência arquitetural do ecossistema |
+| [ParaFatecMobile](https://github.com/thepreiss/ParaFatecMobile) | PWA | React 19, Tailwind 4, TanStack Query |
+| [ParaFatecClient](https://github.com/thepreiss/ParaFatecClient) | PWA | React 19, Leaflet, Framer Motion |
+| [ParaFatecMigration](https://github.com/thepreiss/ParaFatecMigration) | Web | React 19, Gemini AI, ECharts, jsPDF |
+| [ParaFatecAutoAtendimento](https://github.com/thepreiss/ParaFatecAutoAtendimento) | PWA Mobile | React 19, Vite 8 |
+| [ParaFatecPOS](https://github.com/thepreiss/ParaFatecPOS) | Android | Kotlin 2.0, Jetpack Compose, ESC/POS |
+| [ParaFatecTerminal](https://github.com/thepreiss/ParaFatecTerminal) | Android | Java, API 15, OTA Updates |
+| [ParaFatecAutomation](https://github.com/thepreiss/ParaFatecAutomation) | Python | YOLOv8, OpenCV, EasyOCR, ONVIF |
+| [ParaFatec-Privacy](https://github.com/thepreiss/ParaFatec-Privacy) | Static Web | HTML/CSS — [live ↗](https://privacy-parafatec.web.app) |
 
-> Repositórios privados — código apresentado ao vivo. Documentação completa: [PARAFATEC.md](./PARAFATEC.md)
+> All repos are private — code shown live on request. Full ecosystem documentation: [PARAFATEC.md](./PARAFATEC.md)
 
 ---
 
-## 📦 Outros Projetos
+## 📦 Other Projects
 
-### MoralCar — Em desenvolvimento
-Plataforma web para gestão de uma empresa de automóveis. Produto em construção, sem data de lançamento definida.
-→ [`thepreiss/moral-car`](https://github.com/thepreiss/moral-car)
-
-### BuscaTransporte — Live
-Plataforma de busca de transporte público regional. Hospedada em produção em [buscatransporte.com.br](https://buscatransporte.com.br).
-Projeto pausado — chegou ao ar mas não validou tração suficiente para justificar crescimento. Uma lição cara e útil sobre validação de produto antes de infraestrutura.
+**[BuscaTransporte](https://buscatransporte.com.br)** — Transport Search Platform
+Web platform connecting parents with school transporters in the region. Live in production. Project paused — reached deployment but didn't validate enough traction to justify growth investment.
 → [`thepreiss/project`](https://github.com/thepreiss/project)
+
+**MoralCar** — Automotive Business Platform *(in development)*
+Web platform for an automotive services business. Active development.
+→ [`thepreiss/moral-car`](https://github.com/thepreiss/moral-car)
 
 ---
 
 ## 🛠 Stack
 
-**Linguagens**
-`Python` `Kotlin` `Java (Android legado)` `TypeScript` `HTML/CSS`
+**Languages:** `Python` `Kotlin` `Java` `TypeScript` `HTML/CSS`
 
-**Frontend & Mobile**
-`React 19` `Tailwind CSS 4` `Framer Motion` `Vite` `PWA` `Jetpack Compose` `Material Design 3`
+**Frontend:** `React 19` `Tailwind CSS 4` `Framer Motion` `Vite` `PWA`
 
-**Automação & IA**
-`YOLOv8 (Ultralytics)` `OpenCV` `EasyOCR` `ONVIF/RTSP` `Gemini API`
+**Android:** `Jetpack Compose` `Material Design 3` `MVI` `Clean Architecture` `Dagger Hilt`
 
-**Backend & Infraestrutura**
-`Firebase (Auth · Firestore · Hosting · App Check)` `Firebase Admin SDK`
+**AI & Automation:** `YOLOv8` `OpenCV` `EasyOCR` `ONVIF/RTSP` `Gemini API` `Java/Selenium`
 
-**Padrões & Arquitetura**
-`MVI` `Clean Architecture` `Dagger Hilt` `TanStack Query` `Offline-First`
+**Backend & Cloud:** `Firebase (Auth · Firestore · Hosting · App Check · Admin SDK)` `Supabase` `Vercel`
 
-**Ferramentas**
-`Leaflet` `jsPDF` `ExcelJS` `ZXing` `DataTables.net`
+**Tooling:** `TanStack Query` `Leaflet` `jsPDF` `ExcelJS` `ZXing` `GitHub Actions`
 
 ---
 
-## 📫 Contato
+## 🎓 Education
 
-- **E-mail:** emerson.thereis@gmail.com
-- **GitHub:** [@thepreiss](https://github.com/thepreiss)
+- **Tecnólogo em Segurança da Informação** — FATEC Americana *(In progress, July 2026)*
+- **Bacharel em Sistemas de Informação** — PUC Campinas *(2020)*
+- **Técnico em Administração, Desenvolvimento Web e Desenvolvimento de Software** — ETEC Hortolândia
+
+## 📜 Certifications
+
+`Microsoft Azure Fundamentals (AZ-900)` `IBM Security Zero Trust` `Cisco Cybersecurity Essentials` `TOEIC L&R`
+
+## 🌐 Languages
+
+**Portuguese** — Native · **English** — B2 Upper-Intermediate (TOEIC certified)
 
 ---
 
-<sub>O ecossistema completo foi construído com zero custo de infraestrutura — tudo no Firebase Spark Plan. Arquitetura deliberada, não limitação.</sub>
+## 🇧🇷 Em Português
+
+Desenvolvedor Full Stack com mais de 10 anos de experiência em Operações de TI (IBM e Proxxi). Nos últimos dois anos, foco em desenvolvimento de software com entrega ágil de produtos usando ferramentas de IA (Gemini, Claude via Antigravity IDE). Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
+
+📄 Documentação do ecossistema: [PARAFATEC.md](./PARAFATEC.md)
+
+---
+
+*Building things with 10 years of knowing what breaks in production.*
