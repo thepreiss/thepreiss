@@ -8,7 +8,7 @@
 
 I've spent over 10 years managing IT operations and SLAs in critical environments — IBM, then leading a regional team of 30 field technicians at Proxxi. Along the way I built Java/Selenium automations for my own workflows, served as a stakeholder on an IBM Watson scheduling system, and developed a taste for solving operational problems with code.
 
-In the past two years I shifted focus to full-stack development, building complete software products with AI-assisted workflows (Gemini, Claude). My background in how systems fail in production — and why SLAs break — informs how I design and validate the things I ship.
+In the past year I shifted focus to full-stack development, building complete software products with AI-assisted workflows (Gemini, Claude). My background in how systems fail in production — and why SLAs break — informs how I design and validate the things I ship.
 
 Currently finishing a degree in Cybersecurity at FATEC Americana (expected July 2026) and actively looking for the right opportunity.
 
@@ -16,7 +16,7 @@ Currently finishing a degree in Cybersecurity at FATEC Americana (expected July 
 
 ## 🚗 ParaFatec — Smart Parking Ecosystem
 
-The project that brought everything together. A full parking management platform built from scratch, deployed in a real environment, and continuously improved over two years.
+The project that brought everything together. A full parking management platform built from scratch, deployed in a real environment, and continuously improved over the time.
 
 Nine products. One Firebase project. Zero infrastructure cost.
 
@@ -89,10 +89,8 @@ Web platform for an automotive services business. Active development.
 
 ## 🇧🇷 Em Português
 
-Desenvolvedor Full Stack com mais de 10 anos de experiência em Operações de TI (IBM e Proxxi). Nos últimos dois anos, foco em desenvolvimento de software com entrega ágil de produtos usando ferramentas de IA (Gemini, Claude via Antigravity IDE). Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
+Desenvolvedor Full Stack com mais de 10 anos de experiência em Operações de TI (IBM e Proxxi). No último ano, foco em desenvolvimento de software com entrega ágil de produtos usando ferramentas de IA (Gemini, Claude via Antigravity IDE). Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
 
 📄 Documentação do ecossistema: [PARAFATEC.md](./PARAFATEC.md)
 
 ---
-
-*Building things with 10 years of knowing what breaks in production.*
