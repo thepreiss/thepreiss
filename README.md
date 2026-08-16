@@ -1,4 +1,4 @@
-# Emerson Reis — Software Developer & Vibe Coder
+# Emerson Reis — Software Developer & IT Operations Engineer
 
 **Hortolândia, SP — Brazil** · Open to work · [LinkedIn](https://linkedin.com/in/epaular) · emerson.thereis@gmail.com
 
@@ -6,24 +6,26 @@
 
 ---
 
-I've spent over 10 years managing IT operations and SLAs in critical environments — IBM, then leading a regional team of 30 field technicians at Proxxi. Along the way I built Java/Selenium automations for my own workflows, served as a stakeholder on an IBM Watson scheduling system, and developed a taste for solving operational problems with code.
+10 years managing IT operations and SLAs in mission-critical environments — first at IBM handling 500+ incidents/month with consistently the highest First Contact Resolution rate on the team, then at Proxxi coordinating 1,200+ critical incidents/month across 30+ field specialists.
 
-In the past year I shifted focus to full-stack development, building complete software products with AI-assisted workflows (Gemini, Claude). My background in how systems fail in production — and why SLAs break — informs how I design and validate the things I ship.
+Along the way I built Java/Selenium automations that eliminated 60+ manual hours/month for my own operations team. I served as a business stakeholder on an IBM Watson scheduling rollout — solution design, live demos in English — and developed a taste for solving operational problems with code rather than headcount.
 
-Currently finishing a degree in Cybersecurity at FATEC Americana (expected July 2026) and actively looking for the right opportunity.
+In the past year I shifted to full-stack development, designing and deploying a complete multi-product cloud ecosystem from scratch. My background in how systems fail in production — and why SLAs break — informs how I design and validate what I ship.
+
+Currently finishing a degree in Cybersecurity at FATEC Americana (concluded July 2026) and actively looking for the right opportunity.
 
 ---
 
 ## 🚗 ParaFatec — Smart Parking Ecosystem
 
-The project that brought everything together. A full parking management platform built from scratch, deployed in a real environment, and continuously improved over the time.
+A full parking management platform built from scratch and deployed in a real production environment. Started as a single Android app, evolved into nine integrated products when the original architecture hit its limits (no iOS access, no support for specialized POS hardware).
 
 Nine products. One Firebase project. Zero infrastructure cost.
 
 ```
 IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
                                   ↓
-              Operator Dashboard (PWA) + Client App (PWA) + Admin Hub (AI audit)
+              Operator Dashboard (PWA) + Client App (PWA) + Admin Hub
                                   ↓
                    Yard Terminal (Android, API 15) — client check-in/check-out
 ```
@@ -32,7 +34,7 @@ IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
 |:---|:---|:---|
 | [ParaFatecMobile](https://github.com/thepreiss/ParaFatecMobile) | PWA | React 19, Tailwind 4, TanStack Query |
 | [ParaFatecClient](https://github.com/thepreiss/ParaFatecClient) | PWA | React 19, Leaflet, Framer Motion |
-| [ParaFatecMigration](https://github.com/thepreiss/ParaFatecMigration) | Web | React 19, Gemini AI, ECharts, jsPDF |
+| [ParaFatecMigration](https://github.com/thepreiss/ParaFatecMigration) | Web | React 19, Gemini API, ECharts, jsPDF |
 | [ParaFatecAutoAtendimento](https://github.com/thepreiss/ParaFatecAutoAtendimento) | PWA Mobile | React 19, Vite 8 |
 | [ParaFatecPOS](https://github.com/thepreiss/ParaFatecPOS) | Android | Kotlin 2.0, Jetpack Compose, ESC/POS |
 | [ParaFatecTerminal](https://github.com/thepreiss/ParaFatecTerminal) | Android | Java, API 15, OTA Updates |
@@ -67,19 +69,38 @@ Web platform for an automotive services business. Active development.
 
 **Backend & Cloud:** `Firebase (Auth · Firestore · Hosting · App Check · Admin SDK)` `Supabase` `Vercel`
 
+**IT Operations:** `IBM Maximo (ITSM)` `Active Directory (IAM)` `Microsoft Azure` `TCP/IP · DNS · VLANs`
+
 **Tooling:** `TanStack Query` `Leaflet` `jsPDF` `ExcelJS` `ZXing` `GitHub Actions`
+
+---
+
+## 💼 Experience
+
+**Independent Consultant / Solutions Architect** — Americana, SP · *Jan 2026 – Jul 2026*
+Designed and deployed the ParaFatec ecosystem: nine integrated products running on zero-cost Firebase infrastructure, with GitHub Actions CI/CD, Edge AI for license plate recognition (YOLOv8/EasyOCR processed 100% on-premise for LGPD compliance), and hardware integrations with Sunmi POS terminals and legacy Android tablets repurposed as kiosks.
+
+**Senior IT Operations Analyst — Proxxi Tecnologia** · *Mar 2017 – Dec 2025*
+- Built Java/Selenium automation that batch-processed corporate ticket updates, saving 60+ manual operational hours per month and reducing human error
+- Orchestrated routing and dispatch for 1,200+ critical monthly incidents across 30+ field specialists, maintaining strict SLA compliance
+- Acted as operational stakeholder on an IBM Watson scheduling implementation — participated in solution design and delivered technical demonstrations in English
+
+**IT Support Analyst (N2) — IBM** · *Mar 2014 – Mar 2017*
+- Consistently held the highest First Contact Resolution (FCR) rate on the team while handling 500+ incidents/month
+- Managed identity, security groups and network permissions via Active Directory (IAM) across the corporate environment
+- Led escalation and cross-team alignment during severe outages, coordinating with global teams in English
 
 ---
 
 ## 🎓 Education
 
-- **Tecnólogo em Segurança da Informação** — FATEC Americana *(In progress, July 2026)*
+- **Tecnólogo em Segurança da Informação** — FATEC Americana *(Concluded July 2026)*
 - **Bacharel em Sistemas de Informação** — PUC Campinas *(2020)*
 - **Técnico em Administração, Desenvolvimento Web e Desenvolvimento de Software** — ETEC Hortolândia
 
 ## 📜 Certifications
 
-`Microsoft Azure Fundamentals (AZ-900)` `IBM Security Zero Trust` `Cisco Cybersecurity Essentials` `TOEIC L&R`
+`Microsoft Azure Fundamentals (AZ-900)` `IBM Security Zero Trust` `Cisco Cybersecurity Essentials` `Agile Explorer (IBM)` `TOEIC L&R`
 
 ## 🌐 Languages
 
@@ -89,8 +110,8 @@ Web platform for an automotive services business. Active development.
 
 ## 🇧🇷 Em Português
 
-Desenvolvedor Full Stack com mais de 10 anos de experiência em Operações de TI (IBM e Proxxi). No último ano, foco em desenvolvimento de software com entrega ágil de produtos usando ferramentas de IA (Gemini, Claude via Antigravity IDE). Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
+Desenvolvedor Full Stack e Engenheiro de Operações de TI com 10 anos de experiência em ambientes de missão crítica (IBM e Proxxi). Histórico comprovado em automação de processos (Java/Selenium), gestão de incidentes em escala e sustentação de SLAs. No último ano, projetou e entregou do zero um ecossistema de software com nove produtos em produção. Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
 
-📄 Documentação do ecossistema: [PARAFATEC.md](./PARAFATEC.md)
+📄 Documentação do ecossistema ParaFatec: [PARAFATEC.md](./PARAFATEC.md)
 
 ---
