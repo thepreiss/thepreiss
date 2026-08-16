@@ -32,20 +32,24 @@ IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
 
 | Product | Platform | Stack |
 |:---|:---|:---|
-| [ParaFatecMobile](https://github.com/thepreiss/ParaFatecMobile) | PWA | React 19, Tailwind 4, TanStack Query |
-| [ParaFatecClient](https://github.com/thepreiss/ParaFatecClient) | PWA | React 19, Leaflet, Framer Motion |
-| [ParaFatecMigration](https://github.com/thepreiss/ParaFatecMigration) | Web | React 19, Gemini API, ECharts, jsPDF |
-| [ParaFatecAutoAtendimento](https://github.com/thepreiss/ParaFatecAutoAtendimento) | PWA Mobile | React 19, Vite 8 |
-| [ParaFatecPOS](https://github.com/thepreiss/ParaFatecPOS) | Android | Kotlin 2.0, Jetpack Compose, ESC/POS |
-| [ParaFatecTerminal](https://github.com/thepreiss/ParaFatecTerminal) | Android | Java, API 15, OTA Updates |
-| [ParaFatecAutomation](https://github.com/thepreiss/ParaFatecAutomation) | Python | YOLOv8, OpenCV, EasyOCR, ONVIF |
-| [ParaFatec-Privacy](https://github.com/thepreiss/ParaFatec-Privacy) | Static Web | HTML/CSS — [live ↗](https://privacy-parafatec.web.app) |
+| [parafatec-mobile](https://github.com/thepreiss/parafatec-mobile) | PWA | React 19, Tailwind 4, TanStack Query |
+| [parafatec-client](https://github.com/thepreiss/parafatec-client) | PWA | React 19, Leaflet, Framer Motion |
+| [parafatec-bi-auditor](https://github.com/thepreiss/parafatec-bi-auditor) | Web | React 19, Recharts, jsPDF |
+| [parafatec-autoatendimento](https://github.com/thepreiss/parafatec-autoatendimento) | PWA Mobile | React 19, Vite 8, Multi-step Form |
+| [parafatec-pos](https://github.com/thepreiss/parafatec-pos) | Android | Kotlin 2.0, Jetpack Compose, Sunmi ESC/POS |
+| [parafatec-terminal](https://github.com/thepreiss/parafatec-terminal) | Android | Java API 15, Kiosk Mode, Custom OTA Updates, TLS 1.2 Hack |
+| [parafatec-edge-ai](https://github.com/thepreiss/parafatec-edge-ai) | Python | YOLOv8, OpenCV, EasyOCR, ONVIF LPR |
+| [parafatec-privacy-public](https://github.com/thepreiss/parafatec-privacy-public) | Static Web | HTML/CSS — LGPD Compliance & LPR Privacy Policies |
+| [parafatec-core-legacy](https://github.com/thepreiss/parafatec-core-legacy) | Android | Kotlin 2.0, MVI, Clean Architecture *(Legacy Monolith Showcase)* |
 
-> All repos are private — code shown live on request. Full ecosystem documentation: [PARAFATEC.md](./PARAFATEC.md)
+> 📄 Full ecosystem documentation: [PARAFATEC.md](./PARAFATEC.md)
 
 ---
 
 ## 📦 Other Projects
+
+**[ITSM Automation Scripts](https://github.com/thepreiss/itsm-automation-scripts)**
+Java/Selenium scripts built to automate corporate ticket dispatching and SLA management in mission-critical environments.
 
 **[Central de Orçamentos](https://github.com/thepreiss/Central-Orcamentos)**
 Dashboard and quotation management platform. 
@@ -111,8 +115,12 @@ Designed and deployed the ParaFatec ecosystem: nine integrated products running 
 
 ## 🇧🇷 Em Português
 
-Desenvolvedor Full Stack e Engenheiro de Operações de TI com 10 anos de experiência em ambientes de missão crítica (IBM e Proxxi). Histórico comprovado em automação de processos (Java/Selenium), gestão de incidentes em escala e sustentação de SLAs. No último ano, projetou e entregou do zero um ecossistema de software com nove produtos em produção. Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
+Desenvolvedor Full Stack e Engenheiro de Operações de TI com 10 anos de experiência em ambientes de missão crítica (IBM e Proxxi). Histórico comprovado em automação de processos (Java/Selenium), gestão de incidentes em escala e sustentação de SLAs. 
 
-📄 Documentação do ecossistema ParaFatec: [PARAFATEC.md](./PARAFATEC.md)
+No último ano, projetei e entreguei do zero o ecossistema de software **ParaFatec**: uma arquitetura distribuída com 9 produtos em produção, incluindo apps B2B/B2C (React, PWAs), totens legados rodando Kiosk Mode (Java, OTA updates), e sistemas Edge AI para reconhecimento de placas (YOLOv8, processamento 100% local visando compliance com a LGPD). O código-fonte integral destes sistemas, sanitizado, está aberto ao público na listagem de repositórios acima.
+
+Disponível para oportunidades **presenciais ou híbridas na Região de Campinas/SP ou Salvador/BA**, e **remoto globalmente**.
+
+> 📄 Leia o aprofundamento arquitetural: [PARAFATEC.md](./PARAFATEC.md)
 
 ---
