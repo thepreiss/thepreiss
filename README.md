@@ -49,7 +49,7 @@ IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
 ## 📦 Other Projects
 
 **[ITSM Automation Scripts](https://github.com/thepreiss/itsm-automation-scripts)**
-Java/Selenium scripts built to automate corporate ticket dispatching and SLA management in mission-critical environments.
+Java/Selenium scripts built to automate ticket dispatching in the proprietary S4F system. Originally built for personal routine optimization, the tooling scaled to support dozens of analysts and indirectly streamlined workflows for hundreds of field technicians by standardizing SLA management.
 
 **[Central de Orçamentos](https://github.com/thepreiss/Central-Orcamentos)**
 Dashboard and quotation management platform. 
@@ -74,7 +74,7 @@ Platform bridging students and local businesses for internships. Built with a de
 
 **Backend & Cloud:** `Firebase (Auth · Firestore · Hosting · App Check · Admin SDK)` `Supabase` `Vercel`
 
-**IT Operations:** `IBM Maximo (ITSM)` `Active Directory (IAM)` `Microsoft Azure` `TCP/IP · DNS · VLANs`
+**IT Operations:** `S4F (Proprietary ITSM)` `Active Directory (IAM)` `Microsoft Azure` `TCP/IP · DNS · VLANs`
 
 **Tooling:** `TanStack Query` `Leaflet` `jsPDF` `ExcelJS` `ZXing` `GitHub Actions`
 
@@ -86,7 +86,7 @@ Platform bridging students and local businesses for internships. Built with a de
 Designed and deployed the ParaFatec ecosystem: nine integrated products running on zero-cost Firebase infrastructure, with GitHub Actions CI/CD, Edge AI for license plate recognition (YOLOv8/EasyOCR processed 100% on-premise for LGPD compliance), and hardware integrations with Sunmi POS terminals and legacy Android tablets repurposed as kiosks.
 
 **Senior IT Operations Analyst — Proxxi Tecnologia** · *Mar 2017 – Dec 2025*
-- Built Java/Selenium automation that batch-processed corporate ticket updates, saving 60+ manual operational hours per month and reducing human error
+- Built Java/Selenium automation to batch-process ticket updates in the proprietary S4F system. Initially built for personal use, it scaled to support dozens of team members, streamlining workflows for hundreds of field technicians and saving 60+ manual operational hours per month.
 - Orchestrated routing and dispatch for 1,200+ critical monthly incidents across 30+ field specialists, maintaining strict SLA compliance
 - Acted as operational stakeholder on an IBM Watson scheduling implementation — participated in solution design and delivered technical demonstrations in English
 
