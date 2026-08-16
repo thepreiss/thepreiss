@@ -47,13 +47,14 @@ IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
 
 ## 📦 Other Projects
 
-**[BuscaTransporte](https://buscatransporte.com.br)** — Transport Search Platform
-Web platform connecting parents with school transporters in the region. Live in production. Project paused — reached deployment but didn't validate enough traction to justify growth investment.
-→ [`thepreiss/project`](https://github.com/thepreiss/project)
+**[Central de Orçamentos](https://github.com/thepreiss/Central-Orcamentos)**
+Dashboard and quotation management platform. 
 
-**MoralCar** — Automotive Business Platform *(in development)*
-Web platform for an automotive services business. Active development.
-→ [`thepreiss/moral-car`](https://github.com/thepreiss/moral-car)
+**[Rota Certa Escolar](https://github.com/thepreiss/RotaCertaEscolar) & [VanPlus](https://github.com/thepreiss/VanPlus)**
+Ecosystem for school transport management and route tracking. 
+
+**[JobMatch](https://github.com/thepreiss/JobMatch_ETEC)**
+Platform bridging students and local businesses for internships. Built with a dedicated [WebAdmin dashboard](https://github.com/thepreiss/JobMatch-webadmin) and a [MySQL backend](https://github.com/thepreiss/JobMatch-backend-MySQL).
 
 ---
 
