@@ -1,4 +1,6 @@
-# Emerson Reis — Software Developer & IT Operations Engineer
+# Emerson Reis — IT Operations Analyst & Software Developer
+
+**IT Operations (ITSM) | Process Automation | Software Engineering | Information Security**
 
 **Hortolândia, SP — Brazil** · Open to work · [LinkedIn](https://linkedin.com/in/epaular) · emerson.thereis@gmail.com
 
