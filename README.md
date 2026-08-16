@@ -54,7 +54,7 @@ Java/Selenium scripts built to automate corporate ticket dispatching and SLA man
 **[Central de Orçamentos](https://github.com/thepreiss/Central-Orcamentos)**
 Dashboard and quotation management platform. 
 
-**[Rota Certa Escolar](https://github.com/thepreiss/RotaCertaEscolar) & [VanPlus](https://github.com/thepreiss/VanPlus)**
+**[VanPlus](https://github.com/thepreiss/VanPlus)**
 Ecosystem for school transport management and route tracking. 
 
 **[JobMatch](https://github.com/thepreiss/JobMatch_ETEC)**
