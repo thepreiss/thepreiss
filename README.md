@@ -49,7 +49,7 @@ IP Camera → YOLOv8 (LPR) → Firestore ← Android POS (Sunmi, thermal print)
 ## 📦 Other Projects
 
 **[ITSM Automation Scripts](https://github.com/thepreiss/itsm-automation-scripts)**
-Java/Selenium scripts built to automate ticket dispatching in the proprietary S4F system. Originally built for personal routine optimization, the tooling scaled to support dozens of analysts and indirectly streamlined workflows for hundreds of field technicians by standardizing SLA management.
+Java/Selenium scripts built to eliminate repetitive manual work in the proprietary S4F ITSM system. By parsing Excel sheets, the automation allowed analysts to bulk-update statuses and inject repetitive information across massive batches of tickets simultaneously. Originally built for personal use, it scaled to support dozens of team members.
 
 **[Central de Orçamentos](https://github.com/thepreiss/Central-Orcamentos)**
 Dashboard and quotation management platform. 
@@ -86,7 +86,7 @@ Platform bridging students and local businesses for internships. Built with a de
 Designed and deployed the ParaFatec ecosystem: nine integrated products running on zero-cost Firebase infrastructure, with GitHub Actions CI/CD, Edge AI for license plate recognition (YOLOv8/EasyOCR processed 100% on-premise for LGPD compliance), and hardware integrations with Sunmi POS terminals and legacy Android tablets repurposed as kiosks.
 
 **Senior IT Operations Analyst — Proxxi Tecnologia** · *Mar 2017 – Dec 2025*
-- Built Java/Selenium automation to batch-process ticket updates in the proprietary S4F system. Initially built for personal use, it scaled to support dozens of team members, streamlining workflows for hundreds of field technicians and saving 60+ manual operational hours per month.
+- Built Java/Selenium automation to batch-process ticket updates in the proprietary S4F system. By mapping predefined Excel data to UI actions, it eliminated the need to manually update statuses or add repetitive information one by one, scaling to support dozens of team members and saving 60+ manual operational hours per month.
 - Orchestrated routing and dispatch for 1,200+ critical monthly incidents across 30+ field specialists, maintaining strict SLA compliance
 - Acted as operational stakeholder on an IBM Watson scheduling implementation — participated in solution design and delivered technical demonstrations in English
 
